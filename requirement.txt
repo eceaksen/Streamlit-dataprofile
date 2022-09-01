@@ -1,0 +1,22 @@
+streamlit_option_menu
+streamlit
+pandas
+streamlit_option_menu
+plotly.express
+plotly.graph_objects
+matplotlib.pyplot
+seaborn
+time
+requests
+streamlit_lottie
+json
+import streamlit_authenticator as stauth
+import pickle
+pathlib
+sweetviz
+emoji
+openpyxl
+xlrd
+numpy
+graphviz
+bokeh.plotting
