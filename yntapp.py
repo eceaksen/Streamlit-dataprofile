@@ -67,7 +67,7 @@ if authentication_status == None:
     st.warning("Lütfen Kullanıcı Adınızı ve Şifrenizi Giriniz")
 if authentication_status == False:
     st.error("Kullanıcı ismi veya şifre yanlış girilmiştir.")
-if authentication_status:
+if authentication_status==True:
     authenticator.logout("Çıkış Yap", "main")
     #Menu Type1
     #############################################################
@@ -90,7 +90,7 @@ if authentication_status:
     with dataset:
         datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri.xlsx'
         sheet_n1 = 'Combined_Dataset'
-        df1 = pd.read_excel(datasource, sheet_name=sheet_n1, usecols='A:U', header=0)
+        df1 = pd.read_excel(datasource, sheet_name=sheet_n1, usecols='A:Q', header=0)
 
         datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri.xlsx'
         sheet_n2 = 'Additional_Dataset'
@@ -112,7 +112,7 @@ if authentication_status:
     ######              Configuration of Main Page       #######
     if page=="Ana Sayfa":
         # Inserted Animation #
-        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/70106-website-performance.json")
+        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/70106-website-performance.json")
         st_lottie(lottie_coding,speed=1,loop=True)
         #lottie_hello = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_ye2v3dmd.json")
         #st_lottie(lottie_hello, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
@@ -186,7 +186,7 @@ if authentication_status:
     elif page == "Talep Analizi":
 
         #Inserted Animation
-        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/87792-analysis.json")
+        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/87792-analysis.json")
         #lottie_hello = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_je2kc06t.json")
         st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
 
@@ -233,7 +233,7 @@ if authentication_status:
             pie_chart3 = px.pie(b, title='Her Modül için Talep Dağılımı', values=b['NumberofRequest'], names='Modül_Tipi')
             st.plotly_chart(pie_chart3)
         #---#
-        st.subheader("Tüm Talepler")
+        st.subheader("Tüm Taleplerin Sınıf & Modül Dağılımı")
         tab1, tab2 = st.tabs(["Sınıf Tipi","Modül Tipi"])
         with tab1:
             st.write("Sınıf Tipi / Talep Sayısı")
@@ -244,15 +244,15 @@ if authentication_status:
             Modül_Tipi_nmbr = pd.DataFrame(df1['Modül_Tipi'].value_counts())
             st.bar_chart(Modül_Tipi_nmbr)
         # ---#
-        st.subheader("Kapalı / Açık Talepler")
-        tab1, tab2 = st.tabs(["Sınıf Tipi","Modül Tipi"])
+        st.subheader("Modül Tiplerine göre Kapalı & Açık Taleplerin Dağılımı")
+        tab1, tab2 = st.tabs(["Kapalı Talepler","Açık Talepler"])
         with tab1:
-            st.write("Modül Tipi / Talep Sayısı")
+            st.write("Modül Tipi / Kapalı Talep Sayısı")
             closereqdf = df1[df1.Talep_Durumu == 'Kapalı']
             Modül_Tipi_nmbr_cr = pd.DataFrame(closereqdf['Modül_Tipi'].value_counts())
             st.bar_chart(Modül_Tipi_nmbr_cr)
         with tab2:
-            st.write("Modül Tipi / Talep Sayısı")
+            st.write("Modül Tipi / Açık Talep Sayısı")
             openreqdf = df1[df1.Talep_Durumu == 'Açık']
             Modül_Tipi_nmbr_or = pd.DataFrame(openreqdf['Modül_Tipi'].value_counts())
             st.bar_chart(Modül_Tipi_nmbr_or)
@@ -265,29 +265,32 @@ if authentication_status:
             fig = px.sunburst(data_frame=df1, path=path)
             st.plotly_chart(fig)
         #---#
-        st.header("Talep Sahibi Dağılımı")
-        talepsahibi = pd.DataFrame(df1['Talep_Sahibi'].value_counts())
-        st.bar_chart(talepsahibi)
-        with st.expander("Detaylı İncelemek için"):
-            st.write(talepsahibi)
 
-        st.header("Talep Sorumlusu Dağılımı")
-        talepsorumlusu = pd.DataFrame(df1['Talep_Sorumlusu'].value_counts())
-        st.bar_chart(talepsahibi)
-        with st.expander("Detaylı İncelemek için"):
-            st.write(talepsorumlusu)
-
-        st.header("Şirket Dağılımı")
-        talepsirketi = pd.DataFrame(df1['Şirket'].value_counts())
-        st.bar_chart(talepsirketi)
-        with st.expander("Detaylı İncelemek için"):
-            st.write(talepsirketi)
-
+        st.subheader("Talep Detay İnceleme")
+        tab1, tab2, tab3 = st.tabs(["Talep Sahibi Dağılımı", "Talep Sorumlusu Dağılımı","Şirket Dağılımı"])
+        with tab1:
+            st.header("Talep Sahibi Dağılımı")
+            talepsahibi = pd.DataFrame(df1['Talep_Sahibi'].value_counts())
+            st.bar_chart(talepsahibi)
+            with st.expander("Detaylı İncelemek için"):
+                st.write(talepsahibi)
+        with tab2:
+            st.header("Talep Sorumlusu Dağılımı")
+            talepsorumlusu = pd.DataFrame(df1['Talep_Sorumlusu'].value_counts())
+            st.bar_chart(talepsahibi)
+            with st.expander("Detaylı İncelemek için"):
+                st.write(talepsorumlusu)
+        with tab3:
+            st.header("Şirket Dağılımı")
+            talepsirketi = pd.DataFrame(df1['Şirket'].value_counts())
+            st.bar_chart(talepsirketi)
+            with st.expander("Detaylı İncelemek için"):
+                st.write(talepsirketi)
 
 
     elif page == "SLA Süre Analizi":
         #---#
-        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/81231-time-go.json")
+        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/81231-time-go.json")
         #lottie_hello = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_eIXuIz.json")
         st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
 
@@ -356,7 +359,7 @@ if authentication_status:
         with tab2:
             fig, ax = plt.subplots()
             cat_cols = df1.select_dtypes(include=['object']).columns.tolist()
-            cat_cols = ['Talep_Durumu', 'İstek Sahibi', 'Talep_Sorumlusu', 'Request_Manager', 'Şirket', 'Istek_Tipi', 'İstek_Tipi_Detay',
+            cat_cols = ['Talep_Durumu', 'İstek_Tipi_Detay',
                         'Sınıf_Tipi', 'Modül_Tipi']
             hue_type = st.selectbox("check", cat_cols)
             sns.scatterplot(x='Talep_Numarası', y='Sla_Süresi', hue=hue_type, ax=ax, data=df1)
@@ -375,7 +378,6 @@ if authentication_status:
         # ---#
 
         #---#
-        st.write("Grafikler Kontrol Edilecek!!")
         st.header("Talep Yoğunluğu")
         st.write(emoji.emojize(':chart_increasing:'))
         line = pd.DataFrame(df1['Talep_Açılış_Tarihi'].value_counts())
@@ -402,7 +404,7 @@ if authentication_status:
 
         #Inserted Animation
         #lottie_hello = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_ncztkceu.json")
-        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/72879-customer-support-help-support-agent.json")
+        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/72879-customer-support-help-support-agent.json")
         st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
 
     #st.graphviz_chart(''' digraph{
