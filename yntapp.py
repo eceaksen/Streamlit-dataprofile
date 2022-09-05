@@ -404,7 +404,7 @@ if authentication_status==True:
 
         #Inserted Animation
         #lottie_hello = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_ncztkceu.json")
-        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/72879-customer-support-help-support-agent.json")
+        lottie_coding = load_lottiefile("Animasyonlar/72879-customer-support-help-support-agent.json")
         st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
 
     #st.graphviz_chart(''' digraph{
