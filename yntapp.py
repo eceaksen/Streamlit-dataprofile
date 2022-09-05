@@ -88,7 +88,7 @@ if authentication_status==True:
 
     dataset=st.container()
     with dataset:
-        datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri.xlsx'
+        datasource = 'Anaveri.xlsx'
         sheet_n1 = 'Combined_Dataset'
         df1 = pd.read_excel(datasource, sheet_name=sheet_n1, usecols='A:Q', header=0)
 
@@ -112,7 +112,7 @@ if authentication_status==True:
     ######              Configuration of Main Page       #######
     if page=="Ana Sayfa":
         # Inserted Animation #
-        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/70106-website-performance.json")
+        lottie_coding = load_lottiefile("Animasyonlar/70106-website-performance.json")
         st_lottie(lottie_coding,speed=1,loop=True)
         #lottie_hello = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_ye2v3dmd.json")
         #st_lottie(lottie_hello, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
@@ -186,7 +186,7 @@ if authentication_status==True:
     elif page == "Talep Analizi":
 
         #Inserted Animation
-        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/87792-analysis.json")
+        lottie_coding = load_lottiefile("Animasyonlar/87792-analysis.json")
         #lottie_hello = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_je2kc06t.json")
         st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
 
@@ -290,7 +290,7 @@ if authentication_status==True:
 
     elif page == "SLA Süre Analizi":
         #---#
-        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/81231-time-go.json")
+        lottie_coding = load_lottiefile("Animasyonlar/81231-time-go.json")
         #lottie_hello = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_eIXuIz.json")
         st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
 
