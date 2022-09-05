@@ -92,7 +92,7 @@ if authentication_status==True:
         sheet_n1 = 'Combined_Dataset'
         df1 = pd.read_excel(datasource, sheet_name=sheet_n1, usecols='A:Q', header=0)
 
-        datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri.xlsx'
+        datasource = 'Anaveri.xlsx'
         sheet_n2 = 'Additional_Dataset'
         df2 = pd.read_excel(datasource, sheet_name=sheet_n2, usecols='A:B', header=0)
 
