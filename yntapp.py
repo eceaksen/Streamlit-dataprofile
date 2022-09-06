@@ -52,8 +52,8 @@ st.set_page_config(page_title="Yeni Nesil Teknolojiler")
 #############################################################
 ######       Configuration of Autentication Page      #######
 
-names = ["Ece", "Adnan","Sevtap","Elif"]
-usernames = ["eaksen", "açomakoğlu", "ssevgili", "eceyhan"]
+names = ["Ece", "Adnan","Sevtap","Elif","Yağmur",]
+usernames = ["eaksen", "açomakoğlu","ssevgili", "eceyhan","yerışık"]
 
 # Load Hashed Passwords
 file_path = Path(__file__).parent / "hashed_pw.pkl"
@@ -74,8 +74,8 @@ if authentication_status==True:
     ######           Configuration of SideBar             #######
     st.sidebar.title(f"Hoşgeldin {name}")
     with st.sidebar:
-        page = option_menu("Menü", ["Ana Sayfa", "Talep Analizi", "SLA Süre Analizi", 'Sweetviz Raporu'],
-            icons=['house', 'list-task', "list-task", 'gear'], menu_icon="cast", default_index=0)
+        page = option_menu("Menü", ["Ana Sayfa", "Talep Analizi", "SLA Süre Analizi"],
+            icons=['house', 'list-task', "gear"], menu_icon="cast", default_index=0)
 
     #Menu Type2#
     #page = option_menu(None, ["Home Page", "Detailed Request Analysis", "Sla Duration Analysis", 'Sweetviz Report'],
@@ -123,7 +123,7 @@ if authentication_status==True:
         for percent_complete in range(100):
             time.sleep(0.00001)
             bar.progress(percent_complete + 1)
-        st.balloons()
+        #st.balloons()
         st.success('Tamamlandı')
 
         #Inserted an Image#
@@ -385,27 +385,31 @@ if authentication_status==True:
         with st.expander("Detaylı İncelemek için"):
             st.write(line)
 
+        # Inserted Animation
+        # lottie_hello = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_ncztkceu.json")
+        lottie_coding = load_lottiefile(
+            "/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/72879-customer-support-help-support-agent.json")
+        st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None,
+                  key=None)
 
-    elif page=="Sweetviz Raporu":
-        st.title("Sweetviz Raporu")
-        st.write("Otomatik Rapor Çıktısı")
+
+
+    #elif page=="Sweetviz Raporu":
+    #    st.title("Sweetviz Raporu")
+    #    st.write("Otomatik Rapor Çıktısı")
 
         #Inserted Progress Bar
-        st.caption("Yükleniyor")
-        bar = st.progress(50)
-        for percent_complete in range(100):
-            time.sleep(0.00001)
-            bar.progress(percent_complete + 1)
-        st.success('Tamamlandı')
+    #    st.caption("Yükleniyor")
+    #    bar = st.progress(50)
+    #    for percent_complete in range(100):
+    #        time.sleep(0.00001)
+    #        bar.progress(percent_complete + 1)
+    #    st.success('Tamamlandı')
 
-        st.write(emoji.emojize('Check it from the next tab :thumbs_up:'))
-        my_report = sv.analyze(df1)
-        my_report.show_html()
+    #    st.write(emoji.emojize('Check it from the next tab :thumbs_up:'))
+    #    my_report = sv.analyze(df1)
+    #    my_report.show_html()
 
-        #Inserted Animation
-        #lottie_hello = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_ncztkceu.json")
-        lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/72879-customer-support-help-support-agent.json")
-        st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
 
     #st.graphviz_chart(''' digraph{
     #              step1 -> A ->
