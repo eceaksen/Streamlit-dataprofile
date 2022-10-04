@@ -172,7 +172,7 @@ if authentication_status==True:
         st.header("Talep Tipi Dağılımı")
         rec=df1["İstek_Tipi_Detay"].value_counts()
         fig, ax = plt.subplots()
-        ax.pie(rec, autopct='%0.2f%%', labels=['Hata', 'Yeni İstek', 'İyileştirme/Değişiklik'])
+        ax.pie(rec, autopct='%0.2f%%', labels=['Hata', 'Yeni İstek', 'İyileştirme/Değişiklik', 'Diğer'])
         st.pyplot(fig)
         #Inserted an Expander
         with st.expander("Detayları Görmek için Tıklayınız"):
