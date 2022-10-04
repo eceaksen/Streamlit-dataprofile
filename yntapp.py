@@ -1,32 +1,31 @@
-import streamlit as st
+import json
+import pickle
+# ---
+# Libraries Used For Animation
+import time
+from pathlib import Path
+
+# ---
+import emoji  # Emoji detecter
+import matplotlib.pyplot as plt
 import pandas as pd
-#---
-from streamlit_option_menu import option_menu
-#---
-#Libraries Used For Data Visualization
+# ---
+# Libraries Used For Data Visualization
 import plotly.express as px
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
-import seaborn as sns
-#---
-#Libraries Used For Animation
-import time
 import requests
-from streamlit_lottie import st_lottie
-import json
-#---
-#Libraries Used For Autentication
+import seaborn as sns
+import streamlit as st
+# ---
+# Libraries Used For Autentication
 import streamlit_authenticator as stauth
-import pickle
-from pathlib import Path
-#---
-import sweetviz as sv #Automatic Report
-import emoji #Emoji detecter
+from streamlit_lottie import st_lottie
+# ---
+from streamlit_option_menu import option_menu
+
+
 #---
 #Additional Libraries(Can be used later)
-import numpy as np
-import graphviz as graphviz
-from bokeh.plotting import figure #more difficult much more useful
 
 #############################################################
 ######                 Functions:                     #######
@@ -69,6 +68,7 @@ if authentication_status == False:
     st.error("Kullanıcı ismi veya şifre yanlış girilmiştir.")
 if authentication_status==True:
     authenticator.logout("Çıkış Yap", "main")
+
     #Menu Type1
     #############################################################
     ######           Configuration of SideBar             #######
@@ -76,6 +76,7 @@ if authentication_status==True:
     with st.sidebar:
         page = option_menu("Menü", ["Ana Sayfa", "Talep Analizi", "SLA Süre Analizi"],
             icons=['house', 'list-task', "gear"], menu_icon="cast", default_index=0)
+
     #Menu Type2#
     #page = option_menu(None, ["Home Page", "Detailed Request Analysis", "Sla Duration Analysis", 'Sweetviz Report'],
     #    icons=['house', 'cloud-upload', "list-task", 'gear'],
@@ -87,11 +88,11 @@ if authentication_status==True:
 
     dataset=st.container()
     with dataset:
-        datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri.xlsx'
+        datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri2.xlsx'
         sheet_n1 = 'Combined_Dataset'
         df1 = pd.read_excel(datasource, sheet_name=sheet_n1, usecols='A:Q', header=0)
 
-        datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri.xlsx'
+        datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri2.xlsx'
         sheet_n2 = 'Additional_Dataset'
         df2 = pd.read_excel(datasource, sheet_name=sheet_n2, usecols='A:B', header=0)
 
@@ -265,13 +266,13 @@ if authentication_status==True:
             Modül_Tipi_nmbr_or = pd.DataFrame(openreqdf['Modül_Tipi'].value_counts())
             st.bar_chart(Modül_Tipi_nmbr_or)
 
-            # Detailed Pie CHart Anaylsis
-            st.subheader("Detay Analizler")
-            path = st.multiselect("Değişken Seçimi:", (
-                'Talep_Durumu', 'İstek Sahibi', 'Talep_Sorumlusu', 'Request_Manager', 'Şirket', 'Istek_Tipi', 'İstek_Tipi_Detay',
-                'Sınıf_Tipi', 'Modül_Tipi'))
-            fig = px.sunburst(data_frame=df1, path=path)
-            st.plotly_chart(fig)
+        # Detailed Pie CHart Anaylsis
+        st.subheader("Detay Analizler")
+        path = st.multiselect("Değişken Seçimi:", (
+            'Talep_Durumu', 'İstek Sahibi', 'Talep_Sorumlusu', 'Request_Manager', 'Şirket', 'Istek_Tipi', 'İstek_Tipi_Detay',
+            'Sınıf_Tipi', 'Modül_Tipi'))
+        fig = px.sunburst(data_frame=df1, path=path)
+        st.plotly_chart(fig)
         #---#
 
         st.subheader("Talep Detay İnceleme")
