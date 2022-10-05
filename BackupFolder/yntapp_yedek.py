@@ -1,32 +1,31 @@
-import streamlit as st
+import json
+import pickle
+# ---
+# Libraries Used For Animation
+import time
+from pathlib import Path
+
+# ---
+import emoji  # Emoji detecter
+import matplotlib.pyplot as plt
 import pandas as pd
-#---
-from streamlit_option_menu import option_menu
-#---
-#Libraries Used For Data Visualization
+# ---
+# Libraries Used For Data Visualization
 import plotly.express as px
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
-import seaborn as sns
-#---
-#Libraries Used For Animation
-import time
 import requests
-from streamlit_lottie import st_lottie
-import json
-#---
-#Libraries Used For Autentication
+import seaborn as sns
+import streamlit as st
+# ---
+# Libraries Used For Autentication
 import streamlit_authenticator as stauth
-import pickle
-from pathlib import Path
-#---
-import sweetviz as sv #Automatic Report
-import emoji #Emoji detecter
+from streamlit_lottie import st_lottie
+# ---
+from streamlit_option_menu import option_menu
+
+
 #---
 #Additional Libraries(Can be used later)
-import numpy as np
-import graphviz as graphviz
-from bokeh.plotting import figure #more difficult much more useful
 
 #############################################################
 ######                 Functions:                     #######
@@ -52,7 +51,7 @@ st.set_page_config(page_title="Yeni Nesil Teknolojiler")
 #############################################################
 ######       Configuration of Autentication Page      #######
 
-names = ["Ece", "Adnan","Sevtap","Elif","Yağmur",]
+names = ["Ece", "Adnan","Sevtap","Elif","Yağmur","btbenerji"]
 usernames = ["eaksen", "açomakoğlu","ssevgili", "eceyhan","yerışık"]
 
 # Load Hashed Passwords
@@ -69,6 +68,7 @@ if authentication_status == False:
     st.error("Kullanıcı ismi veya şifre yanlış girilmiştir.")
 if authentication_status==True:
     authenticator.logout("Çıkış Yap", "main")
+
     #Menu Type1
     #############################################################
     ######           Configuration of SideBar             #######
@@ -76,6 +76,7 @@ if authentication_status==True:
     with st.sidebar:
         page = option_menu("Menü", ["Ana Sayfa", "Talep Analizi", "SLA Süre Analizi"],
             icons=['house', 'list-task', "gear"], menu_icon="cast", default_index=0)
+
     #Menu Type2#
     #page = option_menu(None, ["Home Page", "Detailed Request Analysis", "Sla Duration Analysis", 'Sweetviz Report'],
     #    icons=['house', 'cloud-upload', "list-task", 'gear'],
@@ -87,11 +88,19 @@ if authentication_status==True:
 
     dataset=st.container()
     with dataset:
-        datasource = 'Anaveri.xlsx'
+<<<<<<< HEAD
+        datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri2.xlsx'
         sheet_n1 = 'Combined_Dataset'
         df1 = pd.read_excel(datasource, sheet_name=sheet_n1, usecols='A:Q', header=0)
 
-        datasource = 'Anaveri.xlsx'
+        datasource = '/Users/eceaks/PycharmProjects/streamlite/Anaveri2.xlsx'
+=======
+        datasource = Anaveri.xlsx
+        sheet_n1 = 'Combined_Dataset'
+        df1 = pd.read_excel(datasource, sheet_name=sheet_n1, usecols='A:Q', header=0)
+
+        datasource = Anaveri.xlsx
+>>>>>>> origin/main
         sheet_n2 = 'Additional_Dataset'
         df2 = pd.read_excel(datasource, sheet_name=sheet_n2, usecols='A:B', header=0)
 
@@ -117,10 +126,10 @@ if authentication_status==True:
 
 
     #############################################################
-    ######              Configuration of Main Page       #######
+    ######              Configuration of Main Page        #######
     if page=="Ana Sayfa":
         # Inserted Animation #
-        lottie_coding = load_lottiefile("Animasyonlar/70106-website-performance.json")
+        lottie_coding = load_lottiefile("70106-website-performance.json")
         st_lottie(lottie_coding,speed=1,loop=True)
         #lottie_hello = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_ye2v3dmd.json")
         #st_lottie(lottie_hello, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
@@ -135,7 +144,7 @@ if authentication_status==True:
         st.success('Tamamlandı')
 
         #Inserted an Image#
-        #st.image("/Users/eceaks/PycharmProjects/streamlite/img0.jpg")
+        #st.image("img0.jpg")
 
         #Inserted Title, Header
         st.markdown("<h1 style='text-align:center;'>YENİ NESİL TEKNOLOJİLER</h1>",unsafe_allow_html=True)
@@ -171,7 +180,7 @@ if authentication_status==True:
         st.header("Talep Tipi Dağılımı")
         rec=df1["İstek_Tipi_Detay"].value_counts()
         fig, ax = plt.subplots()
-        ax.pie(rec, autopct='%0.2f%%', labels=['Hata', 'Yeni İstek', 'İyileştirme/Değişiklik'])
+        ax.pie(rec, autopct='%0.2f%%', labels=['Hata', 'Yeni İstek', 'İyileştirme/Değişiklik', 'Diğer'])
         st.pyplot(fig)
         #Inserted an Expander
         with st.expander("Detayları Görmek için Tıklayınız"):
@@ -191,10 +200,11 @@ if authentication_status==True:
         )
         #---#
 
+
     elif page == "Talep Analizi":
 
         #Inserted Animation
-        lottie_coding = load_lottiefile("Animasyonlar/87792-analysis.json")
+        lottie_coding = load_lottiefile("87792-analysis.json")
         #lottie_hello = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_je2kc06t.json")
         st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
 
@@ -265,13 +275,13 @@ if authentication_status==True:
             Modül_Tipi_nmbr_or = pd.DataFrame(openreqdf['Modül_Tipi'].value_counts())
             st.bar_chart(Modül_Tipi_nmbr_or)
 
-            # Detailed Pie CHart Anaylsis
-            st.subheader("Detay Analizler")
-            path = st.multiselect("Değişken Seçimi:", (
-                'Talep_Durumu', 'İstek Sahibi', 'Talep_Sorumlusu', 'Request_Manager', 'Şirket', 'Istek_Tipi', 'İstek_Tipi_Detay',
-                'Sınıf_Tipi', 'Modül_Tipi'))
-            fig = px.sunburst(data_frame=df1, path=path)
-            st.plotly_chart(fig)
+        # Detailed Pie CHart Anaylsis
+        st.subheader("Detay Analizler")
+        path = st.multiselect("Değişken Seçimi:", (
+            'Talep_Durumu', 'İstek Sahibi', 'Talep_Sorumlusu', 'Request_Manager', 'Şirket', 'Istek_Tipi', 'İstek_Tipi_Detay',
+            'Sınıf_Tipi', 'Modül_Tipi'))
+        fig = px.sunburst(data_frame=df1, path=path)
+        st.plotly_chart(fig)
         #---#
 
         st.subheader("Talep Detay İnceleme")
@@ -285,7 +295,7 @@ if authentication_status==True:
         with tab2:
             st.header("Talep Sorumlusu Dağılımı")
             talepsorumlusu = pd.DataFrame(df1['Talep_Sorumlusu'].value_counts())
-            st.bar_chart(talepsahibi)
+            st.bar_chart(talepsorumlusu)
             with st.expander("Detaylı İncelemek için"):
                 st.write(talepsorumlusu)
         with tab3:
@@ -298,7 +308,7 @@ if authentication_status==True:
 
     elif page == "SLA Süre Analizi":
         #---#
-        lottie_coding = load_lottiefile("Animasyonlar/81231-time-go.json")
+        lottie_coding = load_lottiefile("81231-time-go.json")
         #lottie_hello = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_eIXuIz.json")
         st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None, key=None)
 
@@ -395,10 +405,17 @@ if authentication_status==True:
 
         # Inserted Animation
         # lottie_hello = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_ncztkceu.json")
+<<<<<<< HEAD
+        #lottie_coding = load_lottiefile(
+        #   "/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/72879-customer-support-help-support-agent.json")
+        #st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None,
+        #          key=None)
+=======
         lottie_coding = load_lottiefile(
-            "Animasyonlar/72879-customer-support-help-support-agent.json")
+            "72879-customer-support-help-support-agent.json")
         st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None,
                   key=None)
+>>>>>>> origin/main
 
 
 
