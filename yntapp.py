@@ -51,7 +51,7 @@ st.set_page_config(page_title="Yeni Nesil Teknolojiler")
 #############################################################
 ######       Configuration of Autentication Page      #######
 
-names = ["Ece", "Adnan","Sevtap","Elif","Yağmur",]
+names = ["Ece", "Adnan","Sevtap","Elif","Yağmur","btbenerji"]
 usernames = ["eaksen", "açomakoğlu","ssevgili", "eceyhan","yerışık"]
 
 # Load Hashed Passwords
@@ -118,7 +118,7 @@ if authentication_status==True:
 
 
     #############################################################
-    ######              Configuration of Main Page       #######
+    ######              Configuration of Main Page        #######
     if page=="Ana Sayfa":
         # Inserted Animation #
         lottie_coding = load_lottiefile("/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/70106-website-performance.json")
@@ -191,6 +191,7 @@ if authentication_status==True:
             mime='text/csv',
         )
         #---#
+
 
     elif page == "Talep Analizi":
 
@@ -286,7 +287,7 @@ if authentication_status==True:
         with tab2:
             st.header("Talep Sorumlusu Dağılımı")
             talepsorumlusu = pd.DataFrame(df1['Talep_Sorumlusu'].value_counts())
-            st.bar_chart(talepsahibi)
+            st.bar_chart(talepsorumlusu)
             with st.expander("Detaylı İncelemek için"):
                 st.write(talepsorumlusu)
         with tab3:
@@ -396,10 +397,10 @@ if authentication_status==True:
 
         # Inserted Animation
         # lottie_hello = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_ncztkceu.json")
-        lottie_coding = load_lottiefile(
-            "/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/72879-customer-support-help-support-agent.json")
-        st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None,
-                  key=None)
+        #lottie_coding = load_lottiefile(
+        #   "/Users/eceaks/PycharmProjects/streamlite/Animasyonlar/72879-customer-support-help-support-agent.json")
+        #st_lottie(lottie_coding, speed=1, reverse=False, loop=True, quality="low", height=None, width=None,
+        #          key=None)
 
 
 
