@@ -52,7 +52,7 @@ st.set_page_config(page_title="Yeni Nesil Teknolojiler")
 ######       Configuration of Autentication Page      #######
 
 names = ["Ece", "Adnan","Sevtap","Elif","Yağmur","btbenerji"]
-usernames = ["eaksen", "açomakoğlu","ssevgili", "eceyhan","yerışık","btbenerji"]
+usernames = ["eaksen", "açomakoğlu","ssevgili", "eceyhan","yerışık","btbenerji","deneme"]
 
 # Load Hashed Passwords
 file_path = Path(__file__).parent / "hashed_pw.pkl"
