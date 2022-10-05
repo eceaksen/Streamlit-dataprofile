@@ -144,7 +144,7 @@ if authentication_status==True:
 
         #Insert Caption
         st.caption("Analizler BTYP Raporları kullanılarak oluşturulmuştur.")
-        st.subheader("İstek Raporu (Btyp & Tableu Entegre) ")
+        st.subheader("İstek Raporu")
         st.caption("Projeye Bağlanmamış Uygulama Destek Taleplerinin Detay Raporudur.")
 
         #Inserted Dataset
@@ -183,7 +183,7 @@ if authentication_status==True:
         #---#
         st.subheader("Raporu İndir")
         csv = convert_df(df1)
-        st.write(emoji.emojize('İstek Raporu (Btyp & Tableu Entegre) :receipt:'))
+        st.write(emoji.emojize('İstek Raporu :receipt:'))
         st.download_button(
             label="CSV dosyası indir",
             data=csv,
