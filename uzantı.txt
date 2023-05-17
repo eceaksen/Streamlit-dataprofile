@@ -1,0 +1,4 @@
+COmmand window:
+cd C:\Users\eceaks\AppData\Roaming\Python\Python310\Scripts
+
+streamlit run C:/Users/eceaks/PycharmProjects/streamlite/DashboardYNT.py

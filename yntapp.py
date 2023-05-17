@@ -99,6 +99,7 @@ if authentication_status==True:
         #---
         Sınıf_Tipi = df1['Sınıf_Tipi'].unique().tolist()
         Modül_Tipi = df1['Modül_Tipi'].unique().tolist()
+        #---
 
         closereqdf = df1[df1["Talep_Durumu"] == 'Kapalı']
         openreqdf = df1[df1.Talep_Durumu == 'Açık']
@@ -242,7 +243,7 @@ if authentication_status==True:
             b.columns = ['Modül_Tipi', 'NumberofRequest']
             pie_chart3 = px.pie(b, title='Her Modül için Talep Dağılımı', values=b['NumberofRequest'], names='Modül_Tipi')
             st.plotly_chart(pie_chart3)
-        #---#
+        #---#DASHBOARD
         st.subheader("Tüm Taleplerin Sınıf & Modül Dağılımı")
         tab1, tab2 = st.tabs(["Sınıf Tipi","Modül Tipi"])
         with tab1:

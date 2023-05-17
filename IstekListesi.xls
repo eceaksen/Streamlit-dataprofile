@@ -1,0 +1,217 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body><table border=1>
+                                    <tr>
+                                        <td style='font-weight:bold'>Kullanıcı</td><td>Ece Aksen</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='font-weight:bold'>Tarih</td><td>06.03.2023 16:53:07</td>
+                                    </tr>
+                                </table><table border=1><tr><td collspan='2' align=center style='font-weight:bold'> Kriterler</td></tr><tr><td style='font-weight:bold'>Başlangıç</td><td>06.12.2022</td></tr><tr><td style='font-weight:bold'>Bitiş</td><td>06.03.2023</td></tr><tr><td style='font-weight:bold'>İstek Sahibi</td><td></td></tr><tr><td style='font-weight:bold'>Sektör</td><td>Zorlu Enerji Grubu</td></tr><tr><td style='font-weight:bold'>Kaynak Yönetici(ler)</td><td>Adnan Çomakoğlu,Ece Aksen,Sevtap Sevgili,Elif Ceyhan,Yağmur Erışık</td></tr></table><table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+	<tr>
+		<td>İstek No</td><td>İstek Tipi</td><td>İstek Açıklaması</td><td>Sektör</td><td>Şirket</td><td>İstek Sahibi</td><td>İstek Statü</td><td>İstek Açılış Tarihi</td><td>İstek Kapanış Tarihi</td><td>Kaynak Yöneticisi</td><td>Toplam Aktivite Süresi</td><td>RequestPostClassContentType</td><td>PostClassApp</td><td>PostClassModule</td>
+	</tr><tr>
+		<td>1261591</td><td>Uygulama Destek </td><td>Merhabalar, Jira Checklist Projesinde Component olarak tanımlanmış 1014,1025,1028,1036,1029 şirketlerinin Saadet Simitçioğlu Kaya yerine Fulya Yener’e atanması gerekiyor. Desteğinizi rica ederiz,
+Teşekkürler</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Ece Aksen</td><td>Sonlandırıldı</td><td>01.03.2023</td><td>06.03.2023</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>2,50</td><td>İyileştirme / Değişiklik</td><td>INTRANET SİTELERİ</td><td>Jira</td>
+	</tr><tr>
+		<td>1261238</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Merhaba,
+
+Gökçedağ Rüzgar Santralimizde verimlilik artırıcı aksiyonlar kapsamında hizmet alınacak olan firmanın ekteki opisiyonlara göre santral verilerine ulaşabilmeleri için yetki rica ederiz.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Doğal Elektrik Üretimi A.Ş.</td><td>Songül Ögdüm</td><td>Planlama Onayı Bekliyor</td><td>27.02.2023</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Sevtap Sevgili</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1261043</td><td>Uygulama Destek </td><td>Merhaba, 2023.02.26 ZES Stok Süreci Hatası Hk. kontrol edebilir misiniz.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Melis İçim Öztürk</td><td>Sonlandırıldı</td><td>27.02.2023</td><td>06.03.2023</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu, Ece Aksen</td><td>&nbsp;</td><td>Hata</td><td>RPA</td><td>Mali İşler</td>
+	</tr><tr>
+		<td>1261043</td><td>Uygulama Destek </td><td>Merhaba, 2023.02.26 ZES Stok Süreci Hatası Hk. kontrol edebilir misiniz.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Melis İçim Öztürk</td><td>Sonlandırıldı</td><td>27.02.2023</td><td>06.03.2023</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu, Ece Aksen</td><td>&nbsp;</td><td>Hata</td><td>RPA</td><td>Mali İşler</td>
+	</tr><tr>
+		<td>1260562</td><td>Uygulama Destek </td><td>Merhabalar,
+Jira'da bulunan Checklist projesinde "TopluSilinecekSubTasklar" ismiyle oluşturulmuş subtaskların toplu silinmesini rica ederim.
+Teşekkürler,</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Ece Aksen</td><td>Sonlandırıldı</td><td>23.02.2023</td><td>23.02.2023</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>0,75</td><td>İyileştirme / Değişiklik</td><td>INTRANET SİTELERİ</td><td>Jira</td>
+	</tr><tr>
+		<td>1260366</td><td>Uygulama Destek </td><td>Merhaba, Ocak KDV beyanname süreci ile ilgili canlı sistemde değişiklikler için taleptir.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Melis İçim Öztürk</td><td>Yapılıyor</td><td>22.02.2023</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>12,50</td><td>İyileştirme / Değişiklik</td><td>RPA</td><td>Mali İşler</td>
+	</tr><tr>
+		<td>1259905</td><td>Uygulama Destek </td><td>Merhaba, gelir gider ters kayıt süreci için mail gönderim düzenlenmesi rica ederiz.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Melis İçim Öztürk</td><td>Sonlandırıldı</td><td>20.02.2023</td><td>06.03.2023</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>&nbsp;</td><td>İyileştirme / Değişiklik</td><td>RPA</td><td>Mali İşler</td>
+	</tr><tr>
+		<td>1259823</td><td>Uygulama Destek </td><td>1. elektrik ve doğalgaz tarife fiyatları
+2. kurulu güç 
+verilerinin excel bulk upload ile yüklenebilmesi için çalışma</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>20.02.2023</td><td>28.02.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>11,00</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Piyasa Göstergeleri</td>
+	</tr><tr>
+		<td>1259558</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>172.20.14.14 sunucusuna tam internet erişimi acil sağlar mısnız? 48 saat için. daha önce de talep açılmıştı, erişimlerde problem yaşanıyor.</td><td>Zorlu Enerji Grubu</td><td>ELECTRİP ARAÇ KİRALAMA </td><td>Müge Çarıkçı</td><td>Sonlandırıldı</td><td>17.02.2023</td><td>17.02.2023</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu, Ece Aksen</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1259558</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>172.20.14.14 sunucusuna tam internet erişimi acil sağlar mısnız? 48 saat için. daha önce de talep açılmıştı, erişimlerde problem yaşanıyor.</td><td>Zorlu Enerji Grubu</td><td>ELECTRİP ARAÇ KİRALAMA </td><td>Müge Çarıkçı</td><td>Sonlandırıldı</td><td>17.02.2023</td><td>17.02.2023</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu, Ece Aksen</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1259189</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Merhabalar,
+Jira kullanıcı yetkisi rica ediyorum. Teşekkürlerimle,
+
+İyi çalışmalar.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Jeotermal Enerji Elektrik Üretimi A.Ş.</td><td>Kerem İsmet Çolakoğlu</td><td>Sonlandırıldı</td><td>15.02.2023</td><td>28.02.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>0,50</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1259049</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>172.20.14.14 sunucusu için 48 saat internet erişimi sağlayabilir misiniz?</td><td>Zorlu Enerji Grubu</td><td>ELECTRİP ARAÇ KİRALAMA </td><td>Müge Çarıkçı</td><td>Sonlandırıldı</td><td>14.02.2023</td><td>16.02.2023</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1258712</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Merhaba, tedarikçinin üzerinde çalıştığı proje için hazırlanmış http://192.168.1.90:96/swagger/docs/v1 web servisine 2 aylık süreliğine erişim yetkisi verilmelidir. 192.168.1.90 sunucusunda 96 portuna 35.168.192.103 ve 54.225.180.228 IPleri ile erişim verilmelidir. 
+
+source: 35.168.192.103 ve 54.225.180.228
+destination: 192.168.1.90
+port: 96
+
+Not: Proje termin süresi dolmak üzere olduğundan hızlı destek rica ederiz.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Elek. Enerjisi İth. İhr. ve Toptan Tic. A.Ş.</td><td>Sevtap Sevgili</td><td>Sonlandırıldı</td><td>13.02.2023</td><td>27.02.2023</td><td>Fulya Bıçak MUŞTU, Sevtap Sevgili</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1258672</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>http://192.168.1.90:96/swagger/docs/v1 linkine erişmek için 1.90 makinesi 96 portuna elifcey ve sevtapsev AD kullanıcınıları için erişim verilmesini rica ederim
+
+source: 91.237.217.254
+destination: 192.168.1.90
+port: 96</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>13.02.2023</td><td>27.02.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1258635</td><td>Uygulama Destek </td><td>Merhabalar,
+Online işlemler mobil uygulamasının android ve ios test versiyonlarının iletilmesini rica ederim.
+Teşekkürler,</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Ece Aksen</td><td>Sonlandırıldı</td><td>13.02.2023</td><td>17.02.2023</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>&nbsp;</td><td>Yeni İstek</td><td>Online İşlemler Mobil Uygulama</td><td>Diğer</td>
+	</tr><tr>
+		<td>1258589</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>10.20.50.207 ip adresli veritabanında MOBIL_RAPOR isimli veritabanının bir kopyasının TEST_MOBIL_RAPOR ismi ile mobilrapor kullanıcısının erişebileceği şekilde çıkarılmasını rica ederim</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>10.02.2023</td><td>28.02.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan, Yağmur Erışık</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1258589</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>10.20.50.207 ip adresli veritabanında MOBIL_RAPOR isimli veritabanının bir kopyasının TEST_MOBIL_RAPOR ismi ile mobilrapor kullanıcısının erişebileceği şekilde çıkarılmasını rica ederim</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>10.02.2023</td><td>28.02.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan, Yağmur Erışık</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1257879</td><td>Uygulama Destek </td><td>Yurtiçi Kargo ve Türk Telekom süreçlerinde 1018 ve 1019 şirketlerinde masraf yeri anaveri değişikliği yapmak istiyoruz, ekte yeşil ile renklendirdiklerim olmalı artık. Ardından bu iki şirket için süreci tekrardan çalıştırabilir misiniz.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Melis İçim Öztürk</td><td>Sonlandırıldı</td><td>07.02.2023</td><td>13.02.2023</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>&nbsp;</td><td>İyileştirme / Değişiklik</td><td>RPA</td><td>Mali İşler</td>
+	</tr><tr>
+		<td>1257216</td><td>Uygulama Destek </td><td>Merhabalar,
+Online işlemler mobil uygulama Elektrik ticaret tarafında üyelik yaratmada tespit edilen sorunların çözümlenebilmesi ve aynı zamanda uygulamadan elektrik online işlemler portal veri tabanına erişime gerek olup olmadığının kararının verilmesi gerekmektedir. Mobil uygulamadaki hataların giderilmesi ve portal ile ilgili kararın verilebilmesi için gerekli analizlerle birlikte kapsamlı bir çalışma yapılmasını rica ederiz,
+Teşekkürler</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Ece Aksen</td><td>Yapılıyor</td><td>03.02.2023</td><td>&nbsp;</td><td>Ece Aksen, Kutay Mert Tunç</td><td>25,00</td><td>Hata</td><td>Online İşlemler Mobil Uygulama</td><td>Diğer</td>
+	</tr><tr>
+		<td>1256646</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Merhaba,
+Rpa talebi oluşturmak için kendime ve Cansu Karalı'ya Eba kullanıcısı talep ediyorum.
+Saygılarımla,</td><td>Zorlu Enerji Grubu</td><td>Zorlu Elek. Enerjisi İth. İhr. ve Toptan Tic. A.Ş.</td><td>Berkant Canlı</td><td>Sonlandırıldı</td><td>01.02.2023</td><td>02.02.2023</td><td>Fulya Bıçak MUŞTU, Ece Aksen, Sıla Yurtsever</td><td>0,35</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1254807</td><td>Uygulama Destek </td><td>Merhabalar, Online işlemler mobil uygulama toptanın portal tarafında ve "ZMOB_SIFREMI_UNUTTUM" fonksiyonunda güncellemeler yapıldı. Geliştirmeleri canlıya taşımadan önce portaldeki ve fonksiyondaki değişikliğin bağıntılı olabileceği testlerin yapılabilmesi için desteğinizi rica ederiz.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Ece Aksen</td><td>Sonlandırıldı</td><td>23.01.2023</td><td>06.02.2023</td><td>Ece Aksen, Kutay Mert Tunç</td><td>36,00</td><td>İyileştirme / Değişiklik</td><td>Online İşlemler Mobil Uygulama</td><td>Abonelik İşlemleri</td>
+	</tr><tr>
+		<td>1253907</td><td>Uygulama Destek </td><td>Merhaba, ekteki yeni süreç için çalışmaların başlamasını rica ederiz.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Melis İçim Öztürk</td><td>Yapılıyor</td><td>20.01.2023</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>3,00</td><td>Yeni İstek</td><td>RPA</td><td>Mali İşler</td>
+	</tr><tr>
+		<td>1253679</td><td>Uygulama Destek </td><td>Cumartesi yapılacak SQL Alwayson geçişi için test çalışması yapılması </td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>19.01.2023</td><td>26.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan, Yağmur Erışık</td><td>&nbsp;</td><td>İyileştirme / Değişiklik</td><td>Optimizasyon Portali</td><td>Diğer</td>
+	</tr><tr>
+		<td>1253679</td><td>Uygulama Destek </td><td>Cumartesi yapılacak SQL Alwayson geçişi için test çalışması yapılması </td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>19.01.2023</td><td>26.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan, Yağmur Erışık</td><td>&nbsp;</td><td>İyileştirme / Değişiklik</td><td>Optimizasyon Portali</td><td>Diğer</td>
+	</tr><tr>
+		<td>1253295</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Jira boardunda velocity chart alanının sağlanması ve PBI açıldığında epic ismi yerine PBI isminin yer alması</td><td>Zorlu Enerji Grubu</td><td>ELECTRİP ARAÇ KİRALAMA </td><td>Müge Çarıkçı</td><td>Yapılıyor</td><td>18.01.2023</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu</td><td>4,75</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1253266</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>http://172.20.12.23:85/swagger/ui/index
+
+http://172.20.12.23:85
+
+Yukarıdaki siteler için 
+
+1. Clockwork VPN Authentication Group'a erişim yetkisi verilmesini rica ederim.
+
+2.  192.168.170.11 , port:85</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>17.01.2023</td><td>26.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan, Yağmur Erışık</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1253266</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>http://172.20.12.23:85/swagger/ui/index
+
+http://172.20.12.23:85
+
+Yukarıdaki siteler için 
+
+1. Clockwork VPN Authentication Group'a erişim yetkisi verilmesini rica ederim.
+
+2.  192.168.170.11 , port:85</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>17.01.2023</td><td>26.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan, Yağmur Erışık</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1251249</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Optimizasyon Portalinin 1.90 makinesinden yeni preprod sunucusuna taşınması çalışması</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Yapılıyor</td><td>13.01.2023</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>21,00</td><td>İyileştirme / Değişiklik</td><td>Optimizasyon Portali</td><td>Diğer</td>
+	</tr><tr>
+		<td>1251248</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>furkankok@onmicrosoft.com.tr adresi ile açılan AD kullanıcı için zorlu domaini ile bir mail kullanıcısı açılmasını rica ederim. Danışmanın gerekli sistemlere erişimi onmicrosoft uzatnlı mail ile gerçekleştirilememektedir. Bu nedenle zorlu domaini ile açılacak bir AD kullanıcısı üzerinden Microsoft toolarına eklememiz gerekmektedir. </td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>13.01.2023</td><td>16.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1250736</td><td>Uygulama Destek </td><td>Tüm Zorlu Enerji Toptan müşterilerine ait geçmişe yönelik tüketim verilerinin excel çıktısının alınarak paylaşılmasını rica ederim. Alınması gereken verinin ayrıntıları aşağıdaki gibidir:
+1. Tüketim Verisi
+2. KW cinsinden veriler geliyor ise KW cinsinde kalabilir
+3. Ocak 2022 tarihi itibari ile 1 senelik veri alınmalıdır.
+4. Alınan saatlik veriler ay ay alınacaktır (dönem bilgisi olması gerekmektedir)</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Yapılıyor</td><td>12.01.2023</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Sevtap Sevgili</td><td>4,00</td><td>Yeni İstek</td><td>Optimizasyon Portali</td><td>Tüketim Tahmin</td>
+	</tr><tr>
+		<td>1250724</td><td>Uygulama Destek </td><td>Merhaba, personel mutabakat hataları için açılan taleptir.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Melis İçim Öztürk</td><td>Sonlandırıldı</td><td>12.01.2023</td><td>23.01.2023</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>7,50</td><td>Hata</td><td>RPA</td><td>Mali İşler</td>
+	</tr><tr>
+		<td>1250723</td><td>Uygulama Destek </td><td>Merhaba, enflasyon muhasebesi süreci için açılan taleptir.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Melis İçim Öztürk</td><td>Yapılıyor</td><td>12.01.2023</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>31,00</td><td>Yeni İstek</td><td>RPA</td><td>Mali İşler</td>
+	</tr><tr>
+		<td>1249671</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>assesco'nun test ve prod ortamı için erişim talep ediyorum. </td><td>Zorlu Enerji Grubu</td><td>ZES Dijital Ticaret A.Ş.</td><td>Gözde Zeynep Özdemir</td><td>Sonlandırıldı</td><td>09.01.2023</td><td>09.01.2023</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1249668</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Enterprise Service Cockpit üzerinden "ZES EV IoT Platform", "ZES EV Iot Platform Test" ve ayrıca altındaki tüm uygulamalara erişmek istiyorum.</td><td>Zorlu Enerji Grubu</td><td>ZES Dijital Ticaret A.Ş.</td><td>Gözde Zeynep Özdemir</td><td>Sonlandırıldı</td><td>09.01.2023</td><td>11.01.2023</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu</td><td>1,00</td><td>Yeni İstek</td><td>Uygulama destek</td><td>Diğer</td>
+	</tr><tr>
+		<td>1249084</td><td>Uygulama Destek </td><td>Yağmur Erışık'ın destek aktivitelerinin girişi için açılan taleptir.</td><td>Zorlu Enerji Grubu</td><td>Rotor Elektrik Üretim A.Ş.</td><td>Fulya Bıçak MUŞTU</td><td>Yapılıyor</td><td>04.01.2023</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu</td><td>256,00</td><td>Yeni İstek</td><td>Diğer</td><td>Diğer</td>
+	</tr><tr>
+		<td>1248660</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Asseco'nun test ve prod ortamı için erişim talep ediyorum.
+</td><td>Zorlu Enerji Grubu</td><td>ZES Dijital Ticaret A.Ş.</td><td>Rojda Nisa Sönmez</td><td>Sonlandırıldı</td><td>03.01.2023</td><td>03.01.2023</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1248657</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Merhaba, Enterprise Service Cockpit üzerinden "ZES EV IoT Platform", "ZES EV IoT Platform Test" ve ayrıca altındaki tüm uygulamalara erişmek istiyorum.</td><td>Zorlu Enerji Grubu</td><td>ZES Dijital Ticaret A.Ş.</td><td>Rojda Nisa Sönmez</td><td>Sonlandırıldı</td><td>03.01.2023</td><td>03.01.2023</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu</td><td>1,00</td><td>İyileştirme / Değişiklik</td><td>SAP</td><td>SRM</td>
+	</tr><tr>
+		<td>1248636</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>İşe yeni başlayan arkadaşımız, rojdanisa.sonmez@zorlu.com mail adresinin;
+
+DPMU Teknik, Zes Brm, Akıllı Sistemler - Dijital Platformlar ve Mobil Uygulamalar, Electrip Global mail adreslerine eklenmesini talep ediyoruz.</td><td>Zorlu Enerji Grubu</td><td>ZES Dijital Ticaret A.Ş.</td><td>Gökçen Yeniçeri</td><td>Sonlandırıldı</td><td>03.01.2023</td><td>05.01.2023</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1248576</td><td>Uygulama Destek </td><td>Merhabalar,
+
+Ekte yer alan maile istinaden açılmıştır. 
+
+Saygılarımla,</td><td>Zorlu Enerji Grubu</td><td>Zorlu Elek. Enerjisi İth. İhr. ve Toptan Tic. A.Ş.</td><td>Naile Yaşlı</td><td>Sonlandırıldı</td><td>02.01.2023</td><td>02.02.2023</td><td>Fulya Bıçak MUŞTU, Göksel Okuyan, Ece Aksen, Kutay Mert Tunç</td><td>7,00</td><td>Yeni İstek</td><td>SAP CRM</td><td>Çağrı Merkezi</td>
+	</tr><tr>
+		<td>1248004</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Merhaba,
+VESTEL'in kullanmakta olduğu ARGE Merkezi Sistemin Nilgün Şide Kurtcu ve Ural Halaçoğlu'nun erişebileceği şekilde ZORLU ENERJİ ARGE için kopyalanmasını talep etmekteyiz.
+VESTEL'de sistemin kullanıcıları Erkan Cenk Çelenk ve Orçun Taşçı olup, konu ile ilgili olarak IT departmanlarından Gizem İnce ve Güven Çubuk'tan bilgi alabileceğiniz belirtilmiştir.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Nilgün Şide Kurtcu</td><td>Yapılıyor</td><td>29.12.2022</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Adnan Çomakoğlu</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1247978</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>172.20.12.23 TEST sunucusunda bulentm adlı kullanıcının şifresi exprire olmuş. şifre yenilemesi için desteğinizi rica ederim</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>29.12.2022</td><td>30.12.2022</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1247969</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>btd-devusr07 kullanıcısı locklanmış, ZGD sistemine erişilememektedir. kullanıcının aktive edilmesini rica ederim. </td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Dağıtım A.Ş</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>29.12.2022</td><td>03.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>0,50</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1247903</td><td>Uygulama Destek </td><td>MRM servisinden güncel rollerin alınacabileceği bir method geliştirilmesini rica ederim</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>28.12.2022</td><td>26.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Diğer</td>
+	</tr><tr>
+		<td>1247902</td><td>Uygulama Destek </td><td>GRF fiyatlarının gösterilmesi:
+PTF sayfası referans alınarak GRF sayfasının oluşturulması
+</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Yapılıyor</td><td>28.12.2022</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Piyasa Göstergeleri</td>
+	</tr><tr>
+		<td>1247900</td><td>Uygulama Destek </td><td>Piyasa Analizi verilerinde iyileştirme:
+
+1. Piyasa Analizi-> EMTIA sayfasındaki ithal gaz fiyatları grafiğine değerin eklenmesi
+
+2. Kurulu Güç Üretim-Tüketim sayfasında Üretim Değerlerindeki pie chartın tabloya dönüştürülmesi ve kaynak türüne göre kırılımların eklenmesi
+</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Yapılıyor</td><td>28.12.2022</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>İyileştirme / Değişiklik</td><td>Energy Cockpit Mobil Uygulaması</td><td>Piyasa Göstergeleri</td>
+	</tr><tr>
+		<td>1247899</td><td>Uygulama Destek </td><td>EPDK YEKDEM verilerinin gösterilmesi:
+Verilerin tablo ile gösterildiği bir mobil ekran tasarımı yapılması ve Mobil geliştirme
+</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Yapılıyor</td><td>28.12.2022</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>40,00</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Diğer</td>
+	</tr><tr>
+		<td>1247897</td><td>Uygulama Destek </td><td>Bütçelenen değerlerin üretim değerleri ile gösterilmesi: üretim tablosuna bütçelenen değerlerin bağlanması
+</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>28.12.2022</td><td>28.02.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Üretim</td>
+	</tr><tr>
+		<td>1247894</td><td>Uygulama Destek </td><td>Arıza ve Bakım bilgilerinin mobil uygulama üzerinden girilmesi
+(tasarım + frontend)</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Yapılıyor</td><td>28.12.2022</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>80,00</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Arıza ve Bakım</td>
+	</tr><tr>
+		<td>1247893</td><td>Uygulama Destek </td><td>OEDAŞ Tarife Tablosunun Eklenmesi (tasarım + backend + frontend)
+</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Yapılıyor</td><td>28.12.2022</td><td>&nbsp;</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>64,00</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Diğer</td>
+	</tr><tr>
+		<td>1247892</td><td>Uygulama Destek </td><td>Üretim ve Tüketim raporlarının tablo olarak gösterilmesi</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>28.12.2022</td><td>26.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>40,00</td><td>İyileştirme / Değişiklik</td><td>Energy Cockpit Mobil Uygulaması</td><td>Üretim</td>
+	</tr><tr>
+		<td>1247891</td><td>Uygulama Destek </td><td>Puntoların büyüdüğü tasarım için mobil geliştirmenin yapılması</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>28.12.2022</td><td>26.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>120,00</td><td>İyileştirme / Değişiklik</td><td>Energy Cockpit Mobil Uygulaması</td><td>Üretim</td>
+	</tr><tr>
+		<td>1247530</td><td>Uygulama Destek </td><td>2023 profil çarpanları portal tanımlanması talebi.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Cansu Karalı</td><td>Sonlandırıldı</td><td>27.12.2022</td><td>12.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>6,00</td><td>Yeni İstek</td><td>Optimizasyon Portali</td><td>Zom Power</td>
+	</tr><tr>
+		<td>1247261</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Optimizasyon Portali üzerinde alican kankal ve sehmus altan kullanıcılarına Bütçelenen Değerler sayfasında yetki verilmesini rica ederim</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>26.12.2022</td><td>28.12.2022</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1246849</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>kenan.bayaz@zorlu.com mailini kullanan Kenan Bayaz için AppInsşghts uygulamasoında bir kullanıcı oluşturulmasını rica ederim. Oluşturulan bu kullanıcının ENERJI-ELECTRIP projesine eklenmesini rica ederim.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>22.12.2022</td><td>13.01.2023</td><td>Yağmur Erışık</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1246701</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>hydrogrid üretim verilerinin tirbün bazında gönderilmesi için çalışma yapılması</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>22.12.2022</td><td>11.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>5,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1246302</td><td>Uygulama Destek </td><td>GlobalEnergy sevrisinde dolar kuru 18,63 TL olarak sabit bir değerde kalmıştır. Dolar kuruun güncellenme durumunun kontrol edilmesini rica ederim. Güncellenmiyor ise gerekli çalışmanın yapılmasını rica ederim. </td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>20.12.2022</td><td>28.12.2022</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>1,00</td><td>Hata</td><td>Energy Cockpit Mobil Uygulaması</td><td>Piyasa Göstergeleri</td>
+	</tr><tr>
+		<td>1246227</td><td>Uygulama Destek </td><td>{{WSMOBILEPRHttpGetBaseUrl}}/WSMOBILEPR.asmx/GetData?kullaniciAdi=wsmobilpr&ticket=b6af359e-baad-4e8f-b1b9-57241ad086b2&veriTipi=URETIMANLIKSANTRAL  servisinden canlı uygulamada veri gelmemektedir. Kontrollerinizi rica ederim. </td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>20.12.2022</td><td>03.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>18,00</td><td>Hata</td><td>Energy Cockpit Mobil Uygulaması</td><td>Üretim</td>
+	</tr><tr>
+		<td>1245982</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>1. Burakerdem kullanıcısının EKP Projesi Danışman grubuna eklenmesini rica ederim. 
+2. elifcey kullanıcısı için EKP projesine ait tüm kullanıcı gruplarını düzenleme yetkisi verilmesini rica ederim. Kullanıcı grubu ekleyebilmeli, kullanıcı silip ekleyebilmeliyim.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>19.12.2022</td><td>20.12.2022</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>0,10</td><td>Yeni İstek</td><td>Diğer</td><td>Diğer</td>
+	</tr><tr>
+		<td>1245566</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>burak.erdem@clockwork.com.tr adresi için AD ve VPN kullanıcısı oluşturulmasını rica ederim. Kullanıcı full stack developerdır.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>15.12.2022</td><td>18.12.2022</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1245541</td><td>Uygulama Destek </td><td>PR_DATA exceline eklenen YEKDEM_TAHMINLER ve TTF sheetlerinin servise eklenmesi testinin yapılması</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>15.12.2022</td><td>03.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>3,00</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Piyasa Göstergeleri</td>
+	</tr><tr>
+		<td>1245406</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Merhaba, \\ZHLEVRPADW022\RPA_Projeler\MailAdress dosya dizinine ulaşamıyorum. Yardımlarınızı rica ederim.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Melis İçim Öztürk</td><td>Sonlandırıldı</td><td>14.12.2022</td><td>23.12.2022</td><td>Fulya Bıçak MUŞTU, Ece Aksen</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1244554</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Merhaba, 
+http://192.168.1.90 IP adresli Optimizasyon Portalı'na girmek için kullanıcı adı ve şifre talep ediyorum. Ticaret&Planlama'dan Berkant Canlı ile aynı yetki ve erişimlerin olmasını rica ederim. İyi çalışmalar.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Elek. Enerjisi İth. İhr. ve Toptan Tic. A.Ş.</td><td>Abdurahman Yıldız</td><td>Sonlandırıldı</td><td>09.12.2022</td><td>03.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>1244488</td><td>Uygulama Destek </td><td>EPİAŞ GRF servislerinin 1.90 makinesine entegrasyonu ve mobişl uygulamaya gönderilmesi için servis çalışması yapılmasını rica ederim. (günlük, haftalık, aylık format)</td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>09.12.2022</td><td>26.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>19,00</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Piyasa Göstergeleri</td>
+	</tr><tr>
+		<td>1244484</td><td>Uygulama Destek </td><td>EPİAŞ üzerinden TR büyük santrallerin gerçek zamanlı servisinin 1.90 makinesine entegrasyonunun yapılmasını rica ederim. mobil uygulamaya bu verilerin gönderileceği bir servis açılması gerekmektedir. </td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>09.12.2022</td><td>28.02.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>13,00</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Diğer</td>
+	</tr><tr>
+		<td>1244479</td><td>Uygulama Destek </td><td>Optimizasyon Portali üzerinden bütçelenen üretim değerlerinin girilebileceği bir sayfa oluşturulması ve bunun URETIMYILLIKKAYNAK ve URETIMYILLIKSANTRAL servislerine eklenmesini rica ederim. </td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>09.12.2022</td><td>12.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>24,00</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Üretim</td>
+	</tr><tr>
+		<td>1244478</td><td>Uygulama Destek </td><td>Arıza ve Bakım bildirimlerinin "Organizasyon" alanı girilmeden girilebilecek bir format ile mobil uygulama üzerinden girilmesi için servis açılmasını rica ederim. Ekle, sil ve güncelle fonksiyonları olacaktır. </td><td>Zorlu Enerji Grubu</td><td>Zorlu Enerji Elektrik Üretim A.Ş.</td><td>Elif Ceyhan</td><td>Sonlandırıldı</td><td>09.12.2022</td><td>11.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>15,00</td><td>Yeni İstek</td><td>Energy Cockpit Mobil Uygulaması</td><td>Arıza ve Bakım</td>
+	</tr><tr>
+		<td>1244272</td><td>Uygulama Destek </td><td>http://192.168.1.90/ Zorlu Enerji optimizasyon portalına erişemiyorum. Kullanıcı adı ve parola bölümünden sonra giriş yapmıyor yükleme şeklinde kalıyor. Müşteri faturalamaları için acil giriş yapmam gerekiyor desteğinizi rica ediyorum.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Elek. Enerjisi İth. İhr. ve Toptan Tic. A.Ş.</td><td>Berkant Canlı</td><td>Sonlandırıldı</td><td>08.12.2022</td><td>03.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>&nbsp;</td><td>Yeni İstek</td><td>Optimizasyon Portali</td><td>Sayaç Tüketimleri</td>
+	</tr><tr>
+		<td>1244083</td><td>Kullanıcı İşlemleri (Yetki/Şifre)</td><td>Merhaba, http://192.168.1.90 IP adresli Optimizasyon Portalı'na girmek için kullanıcı adı ve şifre talep ediyorum. Ticaret&Planlama'dan Berkant Canlı ile aynı yetki ve erişimlerin olmasını rica ederim. İyi çalışmalar.</td><td>Zorlu Enerji Grubu</td><td>Zorlu Elek. Enerjisi İth. İhr. ve Toptan Tic. A.Ş.</td><td>Abdurahman Yıldız</td><td>Sonlandırıldı</td><td>07.12.2022</td><td>03.01.2023</td><td>Fulya Bıçak MUŞTU, Elif Ceyhan</td><td>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr>
+</table></body></html>
